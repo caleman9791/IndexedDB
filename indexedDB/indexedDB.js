@@ -1,0 +1,43 @@
+// Interfaces
+// To get access to a database, call open() on the indexedDB attribute of a window object. This method returns an IDBRequest object; asynchronous operations communicate to the calling application by firing events on IDBRequest objects.
+
+// Connecting to a database
+// IDBFactory
+// Provides access to a database. This is the interface implemented by the global object indexedDB and is therefore the entry point for the API.
+
+// IDBOpenDBRequest
+// Represents a request to open a database.
+
+// IDBDatabase
+// Represents a connection to a database. It's the only way to get a transaction on the database.
+
+// Retrieving and modifying data
+// IDBTransaction
+// Represents a transaction. You create a transaction on a database, specify the scope (such as which object stores you want to access), and determine the kind of access (read only or readwrite) that you want.
+
+// IDBRequest
+// Generic interface that handles database requests and provides access to results.
+
+// IDBObjectStore
+// Represents an object store that allows access to a set of data in an IndexedDB database, looked up via primary key.
+
+// IDBIndex
+// Also allows access to a subset of data in an IndexedDB database, but uses an index to retrieve the record(s) rather than the primary key. This is sometimes faster than using IDBObjectStore.
+
+// IDBCursor
+// Iterates over object stores and indexes.
+
+// IDBCursorWithValue
+// Iterates over object stores and indexes and returns the cursor's current value.
+
+// IDBKeyRange
+// Defines a key range that can be used to retrieve data from a database in a certain range.
+
+// IDBLocaleAwareKeyRange Non-standard
+// Defines a key range that can be used to retrieve data from a database in a certain range, sorted according to the rules of the locale specified for a certain index (see the options parameter to IDBObjectStore.createIndex().) This interface isn't part of the 2.0 specification.
+
+// Custom event interfaces
+// This specification fires events with the following custom interface:
+
+// IDBVersionChangeEvent
+// The IDBVersionChangeEvent interface indicates that the version of the database has changed, as the result of an IDBOpenDBRequest.onupgradeneeded event handler function.

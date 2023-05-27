@@ -1,0 +1,5 @@
+IDBFactory
+IDBFactory.cmp
+IDBFactory.databases
+IDBFactory.deleteDatabase
+IDBFactory.open

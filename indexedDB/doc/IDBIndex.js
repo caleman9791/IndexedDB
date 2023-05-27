@@ -1,0 +1,15 @@
+// IDBIndex
+// IDBIndex.count
+// IDBIndex.get
+// IDBIndex.getAll
+// IDBIndex.getAllKeys
+// IDBIndex.getKey
+// IDBIndex.isAutoLocale
+// IDBIndex.keyPath
+// IDBIndex.locale
+// IDBIndex.multiEntry
+// IDBIndex.name
+// IDBIndex.objectStore
+// IDBIndex.openCursor
+// IDBIndex.openKeyCursor
+// IDBIndex.unique

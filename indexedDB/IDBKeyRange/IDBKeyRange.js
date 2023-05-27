@@ -1,0 +1,10 @@
+IDBKeyRange
+IDBKeyRange.bound
+IDBKeyRange.includes
+IDBKeyRange.lower
+IDBKeyRange.lowerBound
+IDBKeyRange.lowerOpen
+IDBKeyRange.only
+IDBKeyRange.upper
+IDBKeyRange.upperBound
+IDBKeyRange.upperOpen
